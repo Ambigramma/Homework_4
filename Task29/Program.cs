@@ -4,7 +4,7 @@
 void ArrOut()
 
 {
-    Console.Write("Введите количество элементов массимва: ");
+    Console.Write("Введите количество элементов массива: ");
     int elements = int.Parse(Console.ReadLine());
 
     int[] myArray = new int [elements];
